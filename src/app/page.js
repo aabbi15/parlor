@@ -32,7 +32,7 @@ export default function Home() {
           <Hair/>
            
            <Portfolio/>
-            <Bridal/>
+            <Bridal id="bridal"/>
             <Review/>
             <Brands/>
            <Footer/>

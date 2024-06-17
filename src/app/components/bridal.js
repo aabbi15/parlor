@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
 
 export default function Bridal() {
     return (
-        <div>
+        <div id='bridal'>
         <section id='bridal' className=" block md:hidden fill-banner banner-2-bg">
         <div className="container">
             <div className="row px-3">

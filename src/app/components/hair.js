@@ -6,8 +6,8 @@ import { Animate, AnimateKeyframes, AnimateGroup } from "react-simple-animate";
 
 export default function Hair() {
     return(
-        <div>
-        <section id='hair' className="block md:hidden fill-banner banner-1-bg">
+        <div id='hair'>
+        <section  className="block md:hidden fill-banner banner-1-bg">
         <div className="container ">
             <div className="row px-3 ">
             <div className="col-12 col-md-10 col-xl-5 ">
