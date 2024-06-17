@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const StarRating = ({ rating }) => {
     // Ensure rating is between 0 and 5
     
@@ -114,7 +115,7 @@ const StarRating = ({ rating }) => {
 export default function Review(){
 
     const reviewdatas = [
-        {
+        {   key:1,
             mainreview: (
                 <>
                     Had an amazing experience at here! The staff was so {' '}  
@@ -129,6 +130,7 @@ export default function Review(){
         },
 
         {
+            key:2,
             mainreview: (
                 <>
                     I got my first ever hair color done here, and the results were fantastic. The products used were of
@@ -142,6 +144,7 @@ export default function Review(){
         },
 
         {
+            key:3,
             mainreview: (
                 <>
                     
@@ -160,7 +163,7 @@ export default function Review(){
         
         return(
             <div className = "px-3 md:px-0" id='review'>
-                <div className = "flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 ring-pink-600 ring-2  md:px-14 rounded-2xl md:py-14 ">
+                <div id={reviewdata.key} className = "flex flex-col justify-between w-full h-full px-6 py-6 bg-gray-100 ring-pink-600 ring-2  md:px-14 rounded-2xl md:py-14 ">
                     <p className = "text-xl leading-normal ">
                         {reviewdata.mainreview}
                     </p>
