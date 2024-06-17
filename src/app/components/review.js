@@ -207,7 +207,7 @@ export default function Review(){
             
 
             {
-                    reviewdatas.map(reviewdata => <Reviewbox reviewdata={reviewdata} />)
+                    reviewdatas.map(reviewdata => <Reviewbox key={reviewdata.key} reviewdata={reviewdata} />)
                 }
 
         </div>
