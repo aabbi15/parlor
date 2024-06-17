@@ -8,12 +8,11 @@ import axios from 'axios';
 
 
 
-console.log(1);
+
 
 export default function testing(){
 
     const [number, setNumber] = useState('');
-    console.log(2);
     // console.log(number);
     
 
@@ -53,7 +52,6 @@ export default function testing(){
     
         function handleSubmit  () {
             
-            console.log("hello");
 
             console.log( "this is body" ,body);
 
@@ -64,7 +62,6 @@ export default function testing(){
             })
         }
         
-        console.log(3);
 
     return(
         <div>

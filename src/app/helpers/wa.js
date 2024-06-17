@@ -50,12 +50,12 @@ const handleSubmit = (name, date, time, phone, service) => {
         }
     }
 
-    console.log( "this is body" ,body );
+    // console.log( "this is body" ,body );
 
     console.log(service);
 
     axios.post("https://graph.facebook.com/v19.0/285811927955895/messages", body, header).then((res) => {
-        console.log(res);
+        // console.log(res);
     }).catch((err) => {
         console.log(service);
         console.log(err);

@@ -21,7 +21,7 @@ export default function Portfolio(){
 
                     <img className = "mx-auto mb-4 w-52 h-52 md:w-96 md:h-96 rounded-full myanimate" src="/images/portfolio2.jpg"></img>
                    
-                    <p><span className="text-3xl font-bold"> “ </span>Perfection! Couldn't have asked for a better team.<span className="text-3xl font-bold"> ” </span></p>
+                    <p><span className="text-3xl font-bold"> “ </span>Perfection! Couldn&apos;t have asked for a better team.<span className="text-3xl font-bold"> ” </span></p>
 
                     <h3 className = "mb-1 text-2xl font-bold tracking-tight text-gray-900 d:text-white">
                         <a href="#">- Apoorna</a>
