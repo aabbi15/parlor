@@ -6,12 +6,17 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Alisha Beauty Parlor",
   description: "Ladies Beauty Parlor, Vadodara, Gujarat",
+  icons: {
+    icon: '/logo.png', // /public path
+  },
 };
+
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <head><link rel="icon" href="./logoz.ico" sizes="any" />
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"/>
