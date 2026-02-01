@@ -67,7 +67,7 @@ export default function Header(){
                             <a href="tel:+919824468844"> 9824468844</a>
                             <br />
 
-                            <a href="tel:+919824030662"> 9824030662</a>
+                            <a href="tel:+919054158844"> 9054158844</a>
                         </div>
                     </div>
                     {/* <div className="">
@@ -106,7 +106,7 @@ export default function Header(){
                             <a href="tel:+919824468844"> 9824468844</a>
                             <br />
 
-                            <a href="tel:+919824030662"> 9824030662</a>
+                            <a href="tel:+919054158844"> 9054158844</a>
                         </div>
                     </div>
                     <div className="contact">

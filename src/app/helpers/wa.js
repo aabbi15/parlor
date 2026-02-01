@@ -18,7 +18,7 @@ const handleSubmit = (name, date, time, phone, service) => {
     const currdate = new Date();
     const body = {
         "messaging_product": "whatsapp",
-        "to": "91" + "9824468844",
+        "to": "91" + "9054158844",
         "type": "template",
         "template": {
             "name": "book_slot",
@@ -26,15 +26,7 @@ const handleSubmit = (name, date, time, phone, service) => {
             "components": [
                 {
                     "type": "body",
-                    // "parameters": [
-                    //     { "type": "text", text: name },
-                    //     { "type": "text", text: date },
-                    //     { "type": "text", text: time },
-                    //     { "type": "text", text: phone },
-                    //     { "type": "text", text: "null" },
-                    //     { "type": "text", text: service },
-                    //     { "type": "text", text: currdate.toString() }
-                    // ]
+                   
 
                     "parameters": [
                         {"type": "text", text: name},

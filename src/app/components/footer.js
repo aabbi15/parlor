@@ -46,12 +46,12 @@ export default function Footer  ()  {
           <div className="flex">
             <p className="mr-1 text-gray-800">Phone:</p>
             <a
-              href="tel:9824030662"
+              href="tel:9054158844"
               aria-label="Our email"
               title="Our email"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              9824030662
+              9054158844
             </a>
           </div>
         

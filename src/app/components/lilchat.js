@@ -10,7 +10,7 @@ import "react-whatsapp-chat-widget/index.css";
 const Lilchat = () => {
 	return (
 		<WhatsAppWidget
-			phoneNo="919824468844"
+			phoneNo="919054158844"
 			position="right"
 			widgetWidth="300px"
 			widgetWidthMobile="240px"
